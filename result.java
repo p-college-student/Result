@@ -6,7 +6,7 @@ class Result
          public static void main(String []args)
          {
 
-             int s1,s2,s3,s4,s5,s6,total;
+             int s1,s2,s3,s4,s5,s6,s7,total;
              float avg;
 
                s1=88;
@@ -16,9 +16,10 @@ class Result
                s4=48;
                s5=86;
                s6=93;
+               s7=87;
 
-            total=(s1+s2+s3+s4+s5+6) ;
-            avg=(float)total/6;    ///explicit cast to real answer 
+            total=(s1+s2+s3+s4+s5+s6+s7) ;
+            avg=(float)total/7;    ///explicit cast to real answer 
 
             System.out.println("Total Marks Obtained ="+total);
 
